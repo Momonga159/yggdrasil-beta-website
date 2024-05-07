@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('yggdrasil-banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background: #111111;
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #7a00ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4c0995;
+}
+
+.text-group .text-item {
+    background-color: #333333;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discord-tag {
+    color: #7a00ff;
+}
